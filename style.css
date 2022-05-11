@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-image: url(./Remini20211017174804458.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0%;
+    z-index: 100;
+    padding: .2rem 2rem;
+}
+
+#navbarNavAltMarkup a {
+    color: rgb(209, 29, 23);
+}
+
+#navbarNavAltMarkup a:hover {
+    border-bottom: 2px solid rgb(189, 231, 37);
+}
+
+.navbar-nav {
+    background-color: rgb(37, 212, 212);
+    padding: 10px;
+    margin: 10px;
+    left: 40%;
+    margin-left: 10%;
+    width: 63%;
+}
+
+.navbar-nav a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.contain h1 {
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+}
+
+.contain p {
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+    background-color: yellow;
+}
+
+.contain button {
+    font-size: 30px;
+    margin-left: 50%;
+}
